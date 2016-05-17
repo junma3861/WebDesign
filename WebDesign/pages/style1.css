@@ -1,0 +1,29 @@
+H1 {color: Blue}
+
+P{
+	text-indent: 5pt;
+	font-size: xx-large
+}
+
+.font
+{
+	color: red;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.change_Font_weight {
+	font-weight: lighter;
+}
+
+.TextWrap {
+	float: right;
+	margin: 10px;
+}
+
+#BlockIndent {
+	Margin-left: 15pt;
+	font-weight: Bold;
+	color: Blue;
+}
+

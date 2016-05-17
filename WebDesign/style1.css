@@ -1,0 +1,45 @@
+H1 {color: Blue}
+
+P{
+	text-indent: 5pt;
+	font-size: xx-large
+}
+
+.font
+{
+	color: red;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.change_Font_weight {
+	font-weight: lighter;
+}
+
+.TextWrap {
+	float: right;
+	margin: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #551010;
+}
+
+.TextWrapLeft {
+	float: left;
+	margin: 10px;
+}
+
+
+.MyBorder {
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #551010;
+}
+
+#BlockIndent {
+	Margin-left: 15pt;
+	font-weight: Bold;
+	color: Blue;
+}
+
