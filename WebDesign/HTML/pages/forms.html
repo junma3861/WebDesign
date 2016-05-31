@@ -44,9 +44,69 @@
 	</textarea>
 
 	<p>
+	<label for="R1">Male</label>
+	<input type="Radio" name="Gender" id="R1" value="Male">
+	<label for="R2">Female</label>
+	<input type="Radio" name="Gender" id="R2" value="Female">
+
+	<p>
+	<input type="Radio" name="payment" value="CC">Credit Card</input>
+	<input type="Radio" name="payment" value="DC">Debit Card</input>
+	<input type="Radio" name="payment" value="PP" checked>PayPal</input>
 	
-	<input type="Radio" name="Gender" value="Male">Male
-	<input type="Radio" name="Gender" value="Female">Female</input>
-	
+	<p>
+	<label for="C1">Firefox</label>
+	<input type="Checkbox" name="browser" id="C1" value="Firefox">
+	<label for="C2">Opera</label>
+	<input type="Checkbox" name="browser" id="C2" value="Opera">
+
+	<p>
+	<select size="5">
+		<option value="Under 16">Under 16</option>
+		<option value="16 to 25">16 to 25</option>
+
+	</select>
+
+	<p>
+	<input type="Password" size="20" maxlength="8"></input>
+
+	<p>
+	<input type="Hidden" name="H1" value="Some value"></input>
+
+	<p>
+	<form>
+		<input type="Text" placeholder="Enter your first name" required></input>
+		<p>
+		<input type="Submit" value="Contact Us"></input>
+	</form>
+
+	<form>
+		<input type="Email" placeholder="Enter your email address"></input>
+		<p>
+		<input type="Submit" value="Submit"></input>
+	</form>
+
+	<form>
+		<input type="URL" placeholder="Enter a website"></input>
+		<p>
+		<input type="Submit" value="Submit"></input>
+	</form>
+
+	<input type="number" min="0" max="10" step="2" value="6" size="6"></input>
+	<p>
+
+	<input type="range" min="0" max="10" step="2" value="4"></input>
+	<p>
+
+	<input type="Color"></input>
+	<p>
+
+	<input type="text" list="zip_codes">
+		<datalist id="zip_codes">
+			<option value="AL" label="ALABAMA"></option>
+			<option value="AK" label="ALASKA"></option>
+		</datalist>
+	</input>
+
 	</body>
 </html>
